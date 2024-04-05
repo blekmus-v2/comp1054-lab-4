@@ -28,105 +28,146 @@
     <h1>NHL Current Standings</h1>
 
     <!-- sub heading -->
-    <h3>National Hockey League</h3>
+    <div class="sub-heading">
+      <h3>National Hockey League</h3>
+      <h3>4th April 2024</h3>
+    </div>
 
     <!-- nhl standigs table -->
     <table id="standings">
       <thead>
         <tr>
           <th data-sort-method="number" scope="col">Rank</th>
-          <th scope="col">Teams</th>
+          <th scope="col">Team</th>
+          <th scope="col">Games Played</th>
           <th scope="col">Wins</th>
           <th scope="col">Losses</th>
-          <th scope="col">OT Losses</th>
+          <th scope="col">Overtime Losses</th>
           <th scope="col">Points</th>
+          <th scope="col">Goals For</th>
+          <th scope="col">Goals Against</th>
+          <th scope="col">Goal Differential</th>
+          <th scope="col">Last 10</th>
+          <th scope="col">Streak</th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <td>1</td>
-          <td>NYR</td>
+          <td><img src="img/NYR_light.svg"/>New York Rangers</td>
+          <td>76</td>
           <td>51</td>
           <td>21</td>
           <td>4</td>
           <td>106</td>
+          <td>263</td>
+          <td>214</td>
+          <td>+49</td>
+          <td>8-2-0</td>
+          <td>W1</td>
         </tr>
-
         <tr>
           <td>2</td>
-          <td>DAL</td>
+          <td><img src="img/DAL_light.svg"/>Dallas Stars</td>
+          <td>76</td>
           <td>48</td>
           <td>19</td>
           <td>9</td>
           <td>105</td>
+          <td>281</td>
+          <td>220</td>
+          <td>+61</td>
+          <td>8-2-0</td>
+          <td>W8</td>
         </tr>
         <tr>
           <td>3</td>
-          <td>BOS</td>
+          <td><img src="img/BOS_light.svg"/>Boston Bruins</td>
+          <td>77</td>
           <td>45</td>
           <td>17</td>
           <td>15</td>
           <td>105</td>
+          <td>256</td>
+          <td>209</td>
+          <td>+47</td>
+          <td>7-3-0</td>
+          <td>W3</td>
         </tr>
-
         <tr>
           <td>4</td>
-          <td>VAN</td>
+          <td><img src="img/VAN_light.svg"/>Vancouver Canucks</td>
+          <td>76</td>
           <td>47</td>
           <td>21</td>
           <td>8</td>
           <td>102</td>
+          <td>260</td>
+          <td>204</td>
+          <td>+56</td>
+          <td>5-4-1</td>
+          <td>W3</td>
         </tr>
         <tr>
           <td>5</td>
-          <td>COL</td>
+          <td><img src="img/COL_light.svg"/>Colorado Avalanche</td>
+          <td>76</td>
           <td>48</td>
           <td>22</td>
           <td>6</td>
           <td>102</td>
+          <td>285</td>
+          <td>227</td>
+          <td>+58</td>
+          <td>7-2-1</td>
+          <td>W1</td>
         </tr>
-
         <tr>
           <td>6</td>
-          <td>CAR</td>
+          <td><img src="img/CAR_light.svg"/>Carolina Hurricanes</td>
+          <td>76</td>
           <td>47</td>
           <td>22</td>
           <td>7</td>
           <td>101</td>
+          <td>256</td>
+          <td>203</td>
+          <td>+53</td>
+          <td>7-2-1</td>
+          <td>L1</td>
         </tr>
         <tr>
           <td>7</td>
-          <td>FLA</td>
+          <td><img src="img/FLA_light.svg"/>Florida Panthers</td>
+          <td>77</td>
           <td>48</td>
           <td>24</td>
           <td>5</td>
           <td>101</td>
+          <td>252</td>
+          <td>193</td>
+          <td>+59</td>
+          <td>3-6-1</td>
+          <td>W1</td>
         </tr>
-
         <tr>
           <td>8</td>
-          <td>WPG</td>
+          <td><img src="img/WPG_light.svg"/>Winnipeg Jets</td>
+          <td>76</td>
           <td>46</td>
           <td>24</td>
           <td>6</td>
           <td>98</td>
+          <td>233</td>
+          <td>189</td>
+          <td>+44</td>
+          <td>4-5-1</td>
+          <td>W2</td>
         </tr>
-        <tr>
-          <td>9</td>
-          <td>EDM</td>
-          <td>45</td>
-          <td>24</td>
-          <td>5</td>
-          <td>95</td>
-        </tr>
-
-        <tr>
-          <td>10</td>
-          <td>TOR</td>
-          <td>43</td>
-          <td>23</td>
-          <td>9</td>
-          <td>95</td>
+        <tr data-sort-method="none">
+          <td colspan="12">
+            Adapted from https://www.nhl.com/standings/2024-04-04/league
+          </td>
         </tr>
       </tbody>
     </table>

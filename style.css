@@ -7,7 +7,7 @@ html {
 
 /* body content styles */
 body {
-    max-width: 1000px;
+    max-width: 1400px;
     margin: auto;
     padding: 30px;
 }
@@ -17,10 +17,22 @@ h1 {
     margin-bottom: 50px;
 }
 
-h3 {
-    font-weight: 500;
+.sub-heading {
     border-bottom: solid 1px #3e3e3e;
-    padding-bottom: 10px;
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sub-heading h3 {
+    font-weight: 500;
+}
+
+.sub-heading h3:last-child {
+    font-weight: 300;
+    font-size: 15px;
+    color: #4b4b4b;
 }
 
 /* table styles */
@@ -41,12 +53,30 @@ td {
     padding-left: 3px;
 }
 
-table thead th:last-child {
+table tbody td img {
+    width: 40px;
+}
+
+table tbody td:nth-child(2) {
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+}
+
+table thead th:nth-child(7),
+table thead th:nth-child(1) {
     color: #9f9fff;
 }
 
-table tbody td:last-child {
+table tbody td:nth-child(7),
+table tbody td:nth-child(1) {
     color: #9f9fff;
+}
+
+/* attribue */
+table tbody tr:last-child td {
+    text-align: left;
+    color: #4b4b4b;
 }
 
 /* default table classes from tablesort */
